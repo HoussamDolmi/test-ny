@@ -33,7 +33,7 @@ const ProjectInfo = () => {
 										>
 											{info.details}
 										</a>
-									</li>  
+									</li>
 								);
 							}
 						)}
