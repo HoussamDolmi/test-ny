@@ -26,7 +26,7 @@ const ProjectSingle = () => {
 				<div className="video-container">
           <video
             src={video}
-            controls
+            
 			muted
             className="w-full"
           >
