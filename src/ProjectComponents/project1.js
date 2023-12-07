@@ -27,6 +27,7 @@ const ProjectSingle = () => {
           <video
             src={video}
             controls
+			muted
             className="w-full"
           >
             Your browser does not support the video tag.
