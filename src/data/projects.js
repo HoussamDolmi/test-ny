@@ -7,12 +7,12 @@ import ColorBOX from '../images/ColorBox/ColorBox 2.jpg';
 export const projectsData = [
 	{
 		id: 1,
-		titl: 'HealthyBistesMobileApp',
-		title: 'Healthy Bistes Mobile Ap',
+		titl: 'HealthyBitesMobileApp',
+		title: 'Healthy Bites Mobile App',
 		category: 'UI/UX Design',
 		img: HealthyBitesMobile,
 		ProjectHeader: {
-			title: 'Healthy Bistes Mobile App ',
+			title: 'Healthy Bites Mobile App ',
 			publishDate: 'oct 15, 2023',
 			tags: 'UI/UX Design',
 		},
