@@ -39,7 +39,7 @@ const PersonalSkills = () => {
           <h2 className="text-xl font-bold mb-4 ml-2 dark:text-ternary-light dark:hover:text-primary-light">Hard Skills</h2>
           <div className="flex flex-wrap justify-center">
             {hardSkills.map((skill, index) => (
-              <div key={index} className="rounded-full overflow-hidden text-black shadow-lg m-2 p-3 w-32 md:w-40 lg:w-34 dark:text-ternary-light dark:hover:text-primary-light hover:text-white hover:bg-orange-500 text-white cursor-pointer">
+              <div key={index} className="rounded-full overflow-hidden text-black shadow-lg m-2 p-3 w-32 md:w-40 lg:w-34 dark:text-ternary-light dark:hover:text-primary-light hover:text-white hover:bg-orange-500  cursor-pointer">
                 <h3 className="mb-1 text-md">{skill}</h3>
               </div>
             ))}

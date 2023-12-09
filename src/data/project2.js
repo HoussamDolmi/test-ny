@@ -16,24 +16,24 @@ import {
 
 export const singleProjectData = {
 	ProjectHeader: {
-		title: 'Healthy Bistes Website',
+		title: 'Healthy Bites Website',
 			publishDate: 'Sep 10, 2023',
 			tags: 'UI/UX Design/Frontend',
 	},
 	ProjectImages: [
 		{
 			id: 1,
-			title: 'Healthy Bistes Website',
+			title: 'Healthy Bites Website',
 			img: Image1,
 		},
 		{
 			id: 2,
-			title: 'Healthy Bistes Website',
+			title: 'Healthy Bites Website',
 			img: Image2,
 		},
 		{
 			id: 3,
-			title: 'Healthy Bistes Website',
+			title: 'Healthy Bites Website',
 			img: Image3,
 		},
 	],

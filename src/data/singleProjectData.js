@@ -16,24 +16,24 @@ import {
 
 export const singleProjectData = {
 	ProjectHeader: {
-		title: 'Healthy Bistes Mobile App ',
+		title: 'Healthy Bites Mobile App ',
 			publishDate: 'Oct 01, 2023',
 			tags: 'UI/UX Design',
 	},
 	ProjectImages: [
 		{
 			id: 1,
-			title: 'Healthy Bistes Mobile App',
+			title: 'Healthy Bites Mobile App',
 			img: Image1,
 		},
 		{
 			id: 2,
-			title: 'Healthy Bistes Mobile App',
+			title: 'Healthy Bites Mobile App',
 			img: Image2,
 		},
 		{
 			id: 3,
-			title: 'Healthy Bistes Mobile App',
+			title: 'Healthy Bites Mobile App',
 			img: Image3,
 		},
 	],
