@@ -8,7 +8,7 @@ export const projectsData = [
 	{
 		id: 1,
 		titl: 'HealthyBitesMobileApp',
-		title: 'Healthy Bites Mobile Ap',
+		title: 'Healthy Bites Mobile App',
 		category: 'UI/UX Design',
 		img: HealthyBitesMobile,
 		ProjectHeader: {
