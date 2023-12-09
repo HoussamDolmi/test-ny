@@ -13,13 +13,15 @@ const selectOptions = [
 ];
 
 const sendFormData = (formData) => {
-  fetch('http://localhost:3001/submit-form', {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-    },
-    body: JSON.stringify(formData),
-  })
+  fetch('http://your-server-ip:3001/submit-form', {
+  method: 'POST',
+  headers: {
+    'Content-Type': 'application/json',
+  },
+  body: JSON.stringify(formData),
+  mode: 'cors',
+})
+
     .then((response) => response.json())
     .then((data) => {
       console.log('Form data sent successfully:', data);
