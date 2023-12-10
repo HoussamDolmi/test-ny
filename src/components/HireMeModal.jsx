@@ -13,24 +13,24 @@ const selectOptions = [
 ];
 
 const sendFormData = (formData) => {
-  fetch('http://localhost:3001/submit-form', {
+  fetch('https://www.houssamdolmi.me/submit-form', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
     },
     body: JSON.stringify(formData),
   })
-
-    .then((response) => response.json())
-    .then((data) => {
-      console.log('Form data sent successfully:', data);
-      // Additional actions after successful form submission
-    })
-    .catch((error) => {
-      console.error('Error sending form data:', error);
-      // Handle errors
-    });
+  .then((response) => response.json())
+  .then((data) => {
+    console.log('Form data sent successfully:', data);
+    // Additional actions after successful form submission
+  })
+  .catch((error) => {
+    console.error('Error sending form data:', error);
+    // Handle errors
+  });
 };
+
 
 const HireMeModal = ({ onClose }) => {
   const [isFormSubmitted, setFormSubmitted] = useState(false);

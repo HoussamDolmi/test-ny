@@ -22,7 +22,7 @@ const ContactForm = () => {
 
       // Simulate a successful form submission
       // You can replace this with an actual server endpoint
-      await fetch('http://localhost:3001/submit-form', {
+      await fetch('https://www.houssamdolmi.me/submit-form', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
