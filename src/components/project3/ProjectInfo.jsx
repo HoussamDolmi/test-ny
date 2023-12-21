@@ -22,7 +22,7 @@ const ProjectInfo = () => {
 									>
 										<span>{info.title}: </span>
 										<a
-											href="https://xd.adobe.com/view/7ec1df90-ab30-42ae-986c-a237409574f0-2b92/?fullscreen"
+											href="https://xd.adobe.com/view/3a1c188f-473b-409c-8e80-f8707211d72a-6f4f/?fullscreen"
 											className={
 												info.title === 'User Experience' ||
 												info.title === 'Phone'
