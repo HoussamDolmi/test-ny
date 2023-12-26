@@ -11,7 +11,7 @@ const MainComponent = () => {
     { title: 'CSS' },
     { title: 'Java Script' },
     { title: 'Docker' },
-    { title: 'NodeJs' },
+    { title: 'WordPress' },
     { title: 'ExpressJs' },
     { title: '& More' },
     // Add more programs and softwares as needed
