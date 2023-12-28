@@ -24,6 +24,7 @@ const ProjectInfo = () => {
 										<a
 											href="https://xd.adobe.com/view/c7049d84-dfaa-4182-88a3-94f19bae0928-9257/?fullscreen"
 											target='_blank'
+											rel="noreferrer"
 											className={
 												info.title === 'User Experience' ||
 												info.title === 'website'
