@@ -3,6 +3,7 @@ import HealthyBitesMobile from '../images/Healthy Bites Mobile/Healthy Bites 1.j
 import HealthyBitesWebsite from '../images/Healthy Bites Website/laptop.jpg';
 import EGotex from '../images/E-Gotex/E-gotex presentation 2.jpg';
 import ColorBOX from '../images/ColorBox/ColorBox 2.jpg';
+import LinguaMindsAcademy from '../images/Lingua Minds Academy/jeune-femme-travaillant-son-ordinateur-portable.png'
 
 export const projectsData = [
 	{
@@ -34,5 +35,11 @@ export const projectsData = [
 		title: 'ColorBOX',
 		category: 'Branding',
 		img: ColorBOX,
+	},
+	{
+		id: 5,
+		title: 'Lingua Minds Academy',
+		category: 'UI/UX Design',
+		img: LinguaMindsAcademy,
 	},
 ];

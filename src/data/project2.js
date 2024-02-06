@@ -5,6 +5,7 @@ import Image3 from '../images/Healthy Bites Website/responsive.jpg';
 import Image4 from '../images/E-Gotex/E-gotex presentation 2.jpg';
 import Image5 from '../images/Healthy Bites Mobile/Healthy Bites 2.jpg';
 import Image6 from '../images/ColorBox/ColorBox 2.jpg';
+import Image7 from '../images/Lingua Minds Academy/OWINHM1 2.png';
 // Import icons
 import {
 	FiFacebook,
@@ -153,6 +154,11 @@ export const singleProjectData = {
 				id: 4,
 				title: 'ColorBox',
 				img: Image6,
+			},
+			{
+				id: 5,
+				title: 'LinguaMindsAcademy',
+				img: Image7,
 			},
 			
 		],
