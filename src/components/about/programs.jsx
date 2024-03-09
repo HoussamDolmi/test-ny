@@ -1,18 +1,21 @@
 import React from 'react';
 const MainComponent = () => {
   const programsAndSoftwares = [
-    { title: 'AdobeXd' },
+    { title: 'Adobe Xd' },
     { title: 'Adobe Photoshop' },
+    { title: 'Adobe Illustrator' },
     { title: 'Figma' },
-    { title: 'Canva' },
-    { title: 'ReactJs' },
+    { title: 'Sketch' },
+    { title: 'Protopie' },
+    { title: 'Bootstrap' },
     { title: 'Tailwind CSS' },
     { title: 'Html' },
-    { title: 'CSS' },
+    { title: 'Css' },
     { title: 'Java Script' },
     { title: 'Docker' },
+    { title: 'MySQL' },
     { title: 'WordPress' },
-    { title: 'ExpressJs' },
+    { title: 'React JS' },
     { title: '& More' },
     // Add more programs and softwares as needed
   ];
